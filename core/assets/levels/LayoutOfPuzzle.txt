@@ -1,0 +1,25 @@
+tilesheet
+playerStartX#playerStartY
+tilesheetNumTilesX#tilesheetNumTilesY
+levelNumTilesX#levelNumTilesY
+DisallowedTile1#DisallowedTile2#..
+// Level (Y rows) (Not included)
+// Tiles are accessed "linearly", as if the spritesheet was a long line. (Not included)
+Tile1#Tile2#Tile3...#TileX
+Tile1#Tile2#Tile3...#TileX
+Tile1#Tile2#Tile3...#TileX
+Tile1#Tile2#Tile3...#TileX
+// Game Objects
+NumberOfUntouchableObjects(Solid Objects)
+obj1#param1#param2...#paramX
+obj2...
+NumberOfTouchableObjects
+LaserShooter#X1#Y1#X2#Y2#ID#Direction#Amount#Speed(#off)
+Door#X#Y#Vertical#ID(#open)
+InvisibleWall#X1#Y1#X2#Y2
+FloorButton#X#Y#TriggeredID(#once)
+EndingBook#X#Y
+NumberOfBugs
+Guard#X#Y#speed#algorithm#IDs
+Type#params
+Type#params...
