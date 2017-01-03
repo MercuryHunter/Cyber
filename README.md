@@ -9,4 +9,7 @@ Controls for the levels are the arrow keys, and the D key can be pressed for deb
 
 All levels are beatable (though number 6 is tricky).
 
+Notable Features include pixel perfect collision and an A-Star pathfinding algorithm.
+Also, any level can be made with any tileset with the elements built-in, following a simple file format.
+
 Future content includes: More levels, a favour system, minigames, spotquizzes, moving around in the game world and a winning screen.
